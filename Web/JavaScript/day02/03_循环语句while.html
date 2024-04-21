@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // let num = 10;
+        // num++;
+        // console.log(num);
+        /*
+            需求:  
+                页面弹出对话框,'你爱我吗',如果输入'愛',则结束,否则一直弹框
+        */
+        // while (true) {
+        //     let str = prompt("你爱我吗?");
+        //     if (str === "爱") {
+        //         break;
+        //     }
+        // }
+
+        //ATM案例
+        let money = 0;
+        while (true) {
+            let index = prompt(`
+                    请您选择操作: 
+                    1.存钱
+                    2.取钱 
+                    3.查看余额 
+                    4.退出
+                    `);
+            if (index === "4") {
+                break;
+            }
+            switch (index) {
+                case "1":
+                    let addMoney = +prompt("请输入你要存的钱");
+                    money += addMoney;
+                    break;
+                case "2":
+                    let dicMoney = +prompt("请输入你要取的钱");
+                    money -= dicMoney;
+                case "3":
+                    alert(`你的钱还剩下${money}元`);
+                    break;
+                default:
+                    alert("输入有误,请重新输入");
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            margin: 50px auto;
+            border: 1px solid black;
+            border-spacing: 0;
+        }
+
+        th {
+            background-color: #f0f0f2;
+        }
+
+        td {
+            height: 30px;
+        }
+
+        th,
+        td {
+            width: 50px;
+            border: 1px solid black;
+            padding-right: 20px;
+        }
+
+        caption {
+            margin-bottom: 20px;
+        }
+        tr:hover{
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+        //遍历获取每一个同学
+        let students = [{
+                name: "小明",
+                age: 18,
+                gender: "男",
+                hometown: "河北省"
+            },
+            {
+                name: "小红",
+                age: 19,
+                gender: "女",
+                hometown: "河南省"
+            },
+            {
+                name: "小刚",
+                age: 17,
+                gender: "男",
+                hometown: "山西省"
+            },
+            {
+                name: "小丽",
+                age: 18,
+                gender: "女",
+                hometown: "山东省"
+            }
+        ]
+
+        document.write(`
+            <table>
+                <caption>学生列表</caption>
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>年龄</th>
+                        <th>性别</th>
+                        <th>家乡</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `);
+
+        for (let i = 0; i <= students.length; i++) {
+            document.write(`
+                <tr>
+                    <td>${i + 1}</td>
+                    <td>${students[i].name}</td>
+                    <td>${students[i].age}</td>
+                    <td>${students[i].gender}</td>
+                    <td>${students[i].hometown}</td>
+                </tr>
+                `);
+        }
+
+        document.write(`
+                </tbody>
+            </table>
+        `);
+    </script>
+</body>
+
+</html>

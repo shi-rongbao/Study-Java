@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <form action="https://www.baidu.com/s">
+        <input type="text" name="wd">
+        <button>去百度搜索</button>
+    </form>
+    <hr>
+    <form action="https://search.jd.com/search">
+        <input type="text" name="keyword">
+        <button>去京东搜索</button>
+    </form>
+    <hr>
+    <h2>--------这是一条分割线>--------</h2>
+    <form action="https://search.jd.com/search" target="_blank">
+        <!-- 文本输入框 -->
+        账户: <input type="text" name="account" value="zhangsan" maxlength="20">
+        <br>
+        <!-- 密码输入框 -->
+        密码: <input type="password" name="pwd" maxlength="20">
+        <br>
+        性别: 
+        <!-- 性别单选框 -->
+        <input type="radio" name="gender" value="male" checked>男 
+        <input type="radio" name="gender" value="female">女 
+        <br>
+        爱好: 
+        <!-- 爱好多选框 -->
+        <input type="checkbox" name="hobby" value="smoke" checked>抽烟 
+        <input type="checkbox" name="hobby" value="drink">喝酒 
+        <input type="checkbox" name="hobby" value="perm">烫头 
+        <br>
+        其他: 
+        <textarea name="other" cols="22" rows="3"></textarea>
+        <br>
+        籍贯: 
+        <select name="place">
+            <option value="北京市" selected>北京市</option>
+            <option value="陕西省">陕西省</option>
+            <option value="安徽省">安徽省</option>
+            <option value="四川省">四川省</option>
+            <option value="上海市">上海市</option>
+        </select>
+        <br>
+        <!-- 第一种写法 -->
+        <!-- <button type="submit">确认</button>
+        <button type="reset">重置</button> 
+        <button type="button">检测账户是否被注册</button> -->
+        <!-- 第二种写法 -->
+        <!-- 隐藏域 -->
+        <input type="hidden" name="from" value="baidu">
+        <br>
+        <input type="submit" value="确认">
+        <input type="reset" value="重置">
+        <input type="button" value="检测账户是否被注册"> 
+    </form>
+
+    <hr>
+    <h2>--------这是一条分割线>--------</h2>
+
+    <form action="https://search.jd.com/search" target="_blank">
+        账户: <input disabled type="text" name="account" value="zhangsan" maxlength="20">
+        <br>
+        密码: <input disabled type="password" name="pwd" maxlength="20">
+        <br>
+        性别: 
+        <input disabled type="radio" name="gender" value="male" checked>男 
+        <input disabled type="radio" name="gender" value="female">女 
+        <br>
+        爱好: 
+        <input disabled type="checkbox" name="hobby" value="smoke" checked>抽烟 
+        <input disabled type="checkbox" name="hobby" value="drink">喝酒 
+        <input disabled type="checkbox" name="hobby" value="perm">烫头 
+        <br>
+        其他: 
+        <textarea disabled name="other" cols="22" rows="3"></textarea>
+        <br>
+        籍贯: 
+        <select disabled name="place">
+            <option value="北京市" selected>北京市</option>
+            <option value="陕西省">陕西省</option>
+            <option value="安徽省">安徽省</option>
+            <option value="四川省">四川省</option>
+            <option value="上海市">上海市</option>
+        </select>
+        <br>
+        <input disabled type="hidden" name="from" value="baidu">
+        <br>
+        <input disabled type="submit" value="确认">
+        <input disabled type="reset" value="重置">
+        <input disabled type="button" value="检测账户是否被注册"> 
+    </form>
+
+    <hr>
+    <h2>--------这是一条分割线>--------</h2>
+
+    <form action="https://search.jd.com/search" target="_blank">
+        <fieldset>
+            <legend>主要信息</legend>
+            <label for="account">账户: </label>
+            <input id="account" type="text" name="account">
+            <br>
+            <label>
+                密码: <input type="password" name="pwd">
+            </label>
+            <br>
+            性别: 
+            <label>
+                <input type="radio" name="gender" value="male">男 
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">女 
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>次要信息</legend>
+            爱好: 
+            <label>
+                <input type="checkbox" name="hobby" value="smoke">抽烟 
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="drink">喝酒 
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="perm">烫头 
+            </label>
+            <br>
+            其他: 
+            <textarea  name="other" cols="22" rows="3"></textarea>
+            <br>
+            籍贯: 
+            <select name="place">
+                <option value="北京市">北京市</option>
+                <option value="陕西省">陕西省</option>
+                <option value="安徽省">安徽省</option>
+                <option value="四川省">四川省</option>
+                <option value="上海市">上海市</option>
+            </select>
+        </fieldset>
+        <br>
+        <input  type="hidden" name="from" value="baidu">
+        <br>
+        <input type="submit" value="确认">
+        <input type="reset" value="重置">
+        <input type="button" value="检测账户是否被注册"> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="../../Project/images/电饭煲.png" alt="">
+
+    <script>
+        const imgArr = ["../../Project/images/banner1.png", "../../Project/images/banner2.png",
+            "../../Project/images/banner3.png", "../../Project/images/banner主图.png", "../../Project/images/冰箱.png",
+            "../../Project/images/微波炉.png", "../../Project/images/电饭煲.png"
+        ];
+        const random = Math.floor(Math.random() * imgArr.length);
+        const img = document.querySelector("img");
+        img.src = imgArr[random];
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--起别名-->
+    <typeAliases>
+        <!--type -> 给哪个起别名  alias-> 别名是哪个-->
+        <!--<typeAlias type="com.shirongbao.mybatis.pojo.Car" alias="Car"/>-->
+        <!--给当前包下的所有类都起别名,默认别名为类名的simpleName-->
+        <package name="com.shirongbao.mybatis.pojo"/>
+
+    </typeAliases>
+    <environments default="mybatis">
+        <environment id="mybatis">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--<mapper resource="CarMapper.xml"/>-->
+        <package name="com.shirongbao.mybatis.mapper"/>
+    </mappers>
+</configuration>

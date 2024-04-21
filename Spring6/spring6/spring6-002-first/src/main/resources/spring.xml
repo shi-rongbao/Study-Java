@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--this is spring configuration file-->
+    <!--IDEA offer this file template for us, we should use this configuration file-->
+    <!--and this file name is unimportance can user-defined -->
+
+    <!--config bean, and spring can help us manage object-->
+
+    <!--
+        bean have two important tag
+            id: not null this is the unique
+            class: must full path
+    -->
+    <bean id="userBean" class="com.shirongbao.spring6.bean.User" />
+    <bean id="userDaoBean" class="com.shirongbao.spring6.dao.UserDaoImplForMySQL" />
+</beans>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--注入简单类型-->
+    <bean id="userBean" class="com.shirongbao.spring6.bean.User">
+        <property name="username" value="张三"/>
+        <property name="age" value="20"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--声明/定义Bean-->
+    <bean id="orderDaoBean" class="com.shirongbao.spring6.dao.OrderDao"/>
+
+    <bean id="orderServiceBean" class="com.shirongbao.spring6.service.OrderService">
+        <!--使用ref属性来引入,这就是注入外部bean-->
+        <property name="orderDao" ref="orderDaoBean"/>
+    </bean>
+
+    <!--内部注入用的比较少-->
+    <bean id="orderServiceBean2" class="com.shirongbao.spring6.service.OrderService">
+        <property name="orderDao">
+            <!--在property标签内种嵌套bean标签,这就是内部bean-->
+            <bean class="com.shirongbao.spring6.dao.OrderDao"/>
+        </property>
+    </bean>
+
+</beans>

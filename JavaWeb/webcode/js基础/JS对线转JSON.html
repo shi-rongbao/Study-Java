@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // 先写一个JSON格式的字符串
+        const personStr = '{"name" : "张三", "age" : 20, "gender" : "男", "dog" : {"dname" : "小黄", "dage" : 6}, "hobby" : ["fuck", "your", "mother"], "friends" : [{"fname" : "客气为"}, {"fname" : "杨鹏程"}, {"fname" : "时荣宝"}]}';
+        
+        // console.log(personStr);
+        // console.log(typeof personStr);
+        // console.log(personStr.name);
+
+        // 通过JSON.parse()方法将JSON串转换为对象
+        const person = JSON.parse(personStr)
+        // console.log(person);
+        // console.log(typeof person);
+        // console.log(person.name);
+        // console.log(person.dog.dname);
+        // console.log(person.friends[2].fname);
+
+        // 通过JSON.stringify()将对象变为JSON串
+        const newStr = JSON.stringify(person)
+        // console.log(newStr);
+        // console.log(typeof newStr);
+        // console.log(newStr.name);
+    </script>
+</body>
+
+</html>

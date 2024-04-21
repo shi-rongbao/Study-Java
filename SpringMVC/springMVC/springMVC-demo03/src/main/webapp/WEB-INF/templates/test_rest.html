@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/user}">查询所有用户信息</a> <br>
+<a th:href="@{/user/1}">根据id查询用户信息</a><br>
+<form th:action="@{/user}" method="post">
+    用户名:<input type="text" name="username">
+    密码:<input type="password" name="password">
+    <input type="submit" value="添加">
+</form><br>
+
+<form th:action="@{/user}" method="post">
+    <input type="hidden" name="_method" value="PUT">
+    用户名:<input type="text" name="username">
+    密码:<input type="password" name="password">
+    <input type="submit" value="修改">
+</form><br>
+
+<!--一般通过a标签来删除用户而不是form表单,可以绑定超链接的点击时间,先阻止超链接的默认行为,然后再跳转提交表单-->
+<form th:action="@{/user/114514}" method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="删除">
+</form><br>
+</body>
+</html>

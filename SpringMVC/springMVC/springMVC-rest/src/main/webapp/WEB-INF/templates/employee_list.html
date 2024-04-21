@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Info</title>
+</head>
+<body>
+<table style="margin: auto">
+    <thead>
+    <tr>
+        <th colspan="5">Employee Info</th>
+    </tr>
+    </thead>
+    <tbody style="text-align: center">
+    <tr>
+        <th>id</th>
+        <th>lastName</th>
+        <th>email</th>
+        <th>gender</th>
+        <th>options (<a th:href="@{/toAdd}">添加用户</a>)</th>
+    </tr>
+    <tr th:each="employee : ${employeeList}">
+        <td th:text="${employee.id}"></td>
+        <td th:text="${employee.lastName}"></td>
+        <td th:text="${employee.email}"></td>
+        <td th:text="${employee.gender}"></td>
+        <td>
+            <!-- 修改th:onclick属性 -->
+            <!-- 修改th:href为th:data-url -->
+            <!-- 使用th:attr来设置属性 -->
+            <a th:attr="data-url=@{'/employee/'+${employee.id}}" onclick="deleteEmployee(this); return false;">delete</a>
+            <a th:href="@{'/employee/'+${employee.id}}">update</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<form id="deleteForm" method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="hidden" id="employeeId" name="employeeId" value="">
+</form>
+
+<script>
+    function deleteEmployee(link) {
+        const xhr = new XMLHttpRequest();
+        const url = link.getAttribute('data-url');
+        xhr.open('DELETE', url, true);
+        xhr.setRequestHeader('Content-Type', 'application/json'); // 设置请求头
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                // 处理成功响应
+                location.reload(); // 刷新页面或执行其他操作
+            }
+        };
+        xhr.send();
+    }
+</script>
+</body>
+</html>

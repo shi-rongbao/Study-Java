@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans>
+    <bean id="userBean" class="com.shirongbao.myspring_test.bean.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="20"/>
+    </bean>
+
+    <bean id="orderDaoBean" class="com.shirongbao.myspring_test.bean.OrderDao"/>
+
+    <bean id="orderService" class="com.shirongbao.myspring_test.bean.OrderService">
+        <property name="orderDao" ref="orderDaoBean"/>
+    </bean>
+</beans>

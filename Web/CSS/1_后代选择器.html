@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* p h2 {
+            color: red;
+        } */
+        li+li{
+            color: red;
+        }
+
+        /* 属性选择器 */
+        [title]{
+            color: red;
+        }
+        h1{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- p标签中不能有h1-h6标签 -->
+    <!-- <p>
+        <h2>你好</h2>
+    </p> -->
+    <ul>
+        <li>主页1</li>
+        <li>主页2</li>
+        <li>主页3</li>
+        <li>主页4</li>
+
+        <div title="学Java包工作1">学Java包工作1</div>
+        <div>学Java包工作2</div>
+        <div>学Java包工作3</div>
+        <div>学Java包工作4</div>
+    </ul>
+</body>
+</html>

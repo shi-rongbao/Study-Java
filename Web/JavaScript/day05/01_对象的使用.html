@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // let obj = {
+        //     username : "shirongbao",
+        //     age : 20,
+        //     gender : "男"
+        // };
+        // console.log(obj);
+        // console.log(typeof obj);
+
+        //声明一个产品对象
+        // let goods = {
+        //     name : "小米10青春版",
+        //     num : "1000012816024",
+        //     weight : "0.55kg",
+        //     address : "中国大陆"
+        // };
+        // console.log(goods);
+        // console.log(goods.address);
+        // //修改对象的值
+        // goods.name = "小米10PLUS"
+        // goods.color = "粉色"
+        // console.log(goods);
+
+        //对象的方法
+        let obj = {
+            username: "刘德华",
+            age: 18,
+            weight: 70,
+            song: function () {
+                console.log("唱歌");
+            }
+        };
+        //使用 for (let key in obj) 遍历对象
+        for (let key in obj) {
+            console.log(obj[key]);
+        }
+        obj.song();
+    </script>
+</body>
+
+</html>

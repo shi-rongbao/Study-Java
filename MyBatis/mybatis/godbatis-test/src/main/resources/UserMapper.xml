@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="fuckUser">
+    <insert id="insertUser">
+        INSERT INTO t_user VALUES(#{id}, #{name}, #{age});
+    </insert>
+    <select id="selectById" resultType="com.shirongbao.godbatis.pojo.User">
+        SELECT id, name, age FROM t_user WHERE id = #{id}
+    </select>
+</mapper>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>This is home page</h1>
+<form th:action="@{/testRequestBody}" method="post">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="提交测试!">
+</form>
+
+<form th:action="@{/testRequestEntity}" method="post">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="提交测试!">
+</form>
+<a th:href="@{/testResponse}">测试通过servletAPI响应数据</a><br>
+<a th:href="@{/testResponseBody}">测试通过ResponseBody响应数据</a><br>
+<a th:href="@{/testResponseUser}">测试通过ResponseUser响应数据</a><br>
+</body>
+</html>

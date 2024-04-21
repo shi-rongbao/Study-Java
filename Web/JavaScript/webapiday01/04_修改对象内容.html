@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div class="box">我是一个div</div>
+
+    <script>
+        const box = document.querySelector(".box");
+        box.innerText = "<strong>我操你妈</strong>"; //innerText不解析标签
+        console.log(box.innerText);
+        box.innerHTML = "<strong>加粗的我操你妈</strong>";
+        console.log(box.innerHTML);
+    </script>
+</body>
+
+</html>

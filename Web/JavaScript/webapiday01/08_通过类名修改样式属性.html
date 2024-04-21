@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: purple;
+            border: 3px solid black;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+
+    <script>
+        const div = document.querySelector("div");
+        div.className = "box";
+    </script>
+</body>
+</html>

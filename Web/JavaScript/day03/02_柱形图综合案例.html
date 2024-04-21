@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            width: 700px;
+            height: 300px;
+            border-left: 1px solid pink;
+            border-bottom: 1px solid pink;
+            margin: 100px auto;
+            align-items: end;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+
+        .box>div {
+            display: flex;
+            width: 50px;
+            background-color: skyblue;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        span {
+            margin-top: -20px;
+        }
+
+        h4 {
+            margin-bottom: -35px;
+            width: 70px;
+            margin-left: -13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        document.write(`<div class="box">`);
+
+        for (let i = 1; i <= 4; i++) {
+            let season = prompt(`请输入第${i}季度的销售额:`);
+            document.write(`
+            <div class="season${i}" style="height: ${season}px;">
+                <span>${season}</span>
+                <h4>第${i}季度</h4>
+            </div>
+            `);
+        }
+
+        document.write(`</div>`);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<a th:href="@{/testRequestByServletAPI}">测试原生ServletAPI往request域放入数据</a><br>
+<a th:href="@{/testModelAndView}">这是通过ModelAndView往request域对象中放入数据</a><br>
+<a th:href="@{/testModel}">这是通过Model往request域对象中放入数据</a><br>
+<a th:href="@{/testMap}">这是通过Map往request域对象中放入数据</a><br>
+<a th:href="@{/testModelMap}">这是通过ModelMap往request域对象中放入数据</a><br>
+<a th:href="@{/testSession}">这是通过原生ServletAPI往session域对象中放入数据</a><br>
+<a th:href="@{/testContext}">这是通过原生ServletAPI往context域对象中放入数据</a><br>
+</body>
+</html>
