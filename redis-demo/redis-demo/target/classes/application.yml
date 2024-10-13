@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: redis-demo
+
+  data:
+    redis:
+      port: 6377
+      host: 8.130.175.86
+      password: 7447664226
+      database: 0
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: 100ms
