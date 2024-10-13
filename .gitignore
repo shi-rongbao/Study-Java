@@ -1,0 +1,76 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Bundle files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# IDE-specific files
+.idea/workspace.xml
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Testing-related files
+coverage/
+test/
+tests/
+__tests__/
+
+# Build tool-specific files
+build/
+dist/
+out/
+
+# Version control system files
+.git/
+.svn/
+.hg/
+
+# Dependency management files
+package-lock.json
+yarn.lock
+composer.lock
+
+# Documentation files
+docs/
+README.md  # If you have a separate documentation repository
+
+# Configuration files
+config/
+settings/
+application.properties  # Or similar
+
+# Sensitive data
+# Add specific file patterns here if necessary
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+
+# 压缩包格式
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
