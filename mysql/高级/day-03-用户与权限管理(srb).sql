@@ -1,0 +1,2 @@
+# 查看权限
+SHOW GRANTS;
