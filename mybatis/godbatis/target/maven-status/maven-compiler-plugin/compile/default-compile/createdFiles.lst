@@ -1,0 +1,12 @@
+org\god\ibatis\core\ManagedTransaction.class
+org\god\ibatis\core\MappedStatement.class
+org\god\ibatis\core\Transaction.class
+org\god\ibatis\utils\Resources.class
+org\god\ibatis\core\Const.class
+org\god\ibatis\core\SqlSessionFactoryBuilder.class
+org\god\ibatis\core\PooledDataSource.class
+org\god\ibatis\core\UnPooledDataSource.class
+org\god\ibatis\core\JdbcTransaction.class
+org\god\ibatis\core\JNDIDataSource.class
+org\god\ibatis\core\SqlSession.class
+org\god\ibatis\core\SqlSessionFactory.class

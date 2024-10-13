@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace不能使用别名-->
+<mapper namespace="com.shirongbao.mybatis.mapper.CarMapper">
+    <insert id="insertCarUseGeneratedKeys" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO t_car VALUES (DEFAULT, #{carNum}, #{brand}, #{guidePrice}, #{produceTime}, #{carType})
+    </insert>
+    <select id="selectByCarType" resultType="Car">
+        SELECT id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
+        FROM t_car
+        WHERE car_type = #{carType};
+    </select>
+
+    <select id="selectAllByAscOrDesc" resultType="Car">
+        SELECT id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
+        FROM t_car
+        ORDER BY produce_time ${ascOrDesc};
+    </select>
+    <delete id="deleteBatch">
+        DELETE FROM t_car
+        WHERE id IN (${ids});
+        /*
+            Preparing: DELETE FROM t_car WHERE id IN ("13,15,16");
+        */
+    </delete>
+
+    <select id="selectByBrandLike" resultType="Car">
+        SELECT id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
+        FROM t_car
+        WHERE brand LIKE "%"#{brand}"%";
+    </select>
+    <!--WHERE brand LIKE CONCAT('%', #{brand}, '%');-->
+    <!--WHERE brand LIKE '%${brand}%';-->
+    <!--WHERE brand LIKE '%#{brand}%';-->
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shirongbao.mybatis.mapper.StudentMapper">
+    <select id="selectById" resultType="Student" parameterType="Long">
+        SELECT *
+        FROM t_student
+        WHERE id = #{id};
+    </select>
+    <select id="selectByName" resultType="Student" parameterType="String">
+        SELECT *
+        FROM t_student
+        WHERE name = #{name};
+    </select>
+    <select id="selectByBirth" resultType="Student" parameterType="Date">
+        SELECT *
+        FROM t_student
+        WHERE birth = #{birth};
+    </select>
+    <select id="selectBySex" resultType="Student" parameterType="Character">
+        SELECT *
+        FROM t_student
+        WHERE sex = #{sex};
+    </select>
+
+    <insert id="insertStudentByMap" parameterType="map">
+        INSERT INTO t_student (id, name, age, height, birth, sex)
+        VALUES (DEFAULT, #{name}, #{age}, #{height}, #{birth}, #{sex});
+    </insert>
+
+    <select id="selectByNameAndSex" resultType="Student">
+        SELECT *
+        FROM t_student
+        WHERE name = #{name}
+          AND sex = #{sex};
+    </select>
+</mapper>

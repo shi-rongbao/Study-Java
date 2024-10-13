@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shirongbao.mybatis.mapper.CarMapper">
+    <resultMap id="carResultMap" type="Car">
+        <id property="id" column="id"/>
+        <result property="carNum" column="car_num"/>
+        <result property="brand" column="brand"/>
+        <result property="guidePrice" column="guide_price"/>
+        <result property="produceTime" column="produce_time"/>
+        <result property="carType" column="car_type"/>
+    </resultMap>
+    <select id="selectTotal" resultType="Long">
+        SELECT COUNT(*)
+        FROM t_car;
+    </select>
+    <select id="selectAllByMapUnderscoreToCamelCase" resultType="Car">
+        SELECT *
+        FROM t_car;
+    </select>
+    <select id="selectAllByResultMap" resultMap="carResultMap">
+        SELECT *
+        FROM t_car;
+    </select>
+    <select id="selectAllRetMapMap" resultType="Map">
+        SELECT *
+        FROM t_car;
+    </select>
+    <select id="selectAllRetListMap" resultType="Map">
+        SELECT *
+        FROM t_car;
+    </select>
+    <select id="selectByIdRetMap" resultType="Map">
+        SELECT *
+        FROM t_car
+        WHERE id = #{id};
+    </select>
+    <select id="selectAll" resultType="Car">
+        SELECT id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
+        FROM t_car;
+    </select>
+    <select id="selectById" resultType="Car" parameterType="Long">
+        SELECT id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType
+        FROM t_car
+        WHERE id = #{id};
+    </select>
+</mapper>

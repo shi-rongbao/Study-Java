@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shirongbao.mybatis.mapper.CarMapper">
+    <cache/>
+
+    <select id="selectById2" resultType="Car">
+        SELECT *
+        FROM t_car
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectById" resultType="Car">
+        SELECT *
+        FROM t_car
+        WHERE id =#{id}
+    </select>
+</mapper>
