@@ -78,12 +78,12 @@ minio:
   bucket-name: tingshu
 vod:
   appId: 1321185798
-  secretId: AKIDtklkjcL1eBb0Pk2ENZbWM4d6VsMisrgK
-  secretKey: fJIC6uZ6TipncPApMqFVdcR7kKn8QbyI
-  region: ap-guangzhou
-  procedure: SimpleAesEncryptPreset #任务流
-  tempPath: C:\StudyJava\StudyJava\TingShu\temp_path
-  playKey: wrTwwu8U3DRSRDgC8l7q  #播放加密key
+  # secretId: AKIDtklkjcL1eBb0Pk2ENZbWM4d6VsMisrgK
+  # secretKey: fJIC6uZ6TipncPApMqFVdcR7kKn8QbyI
+  # region: ap-guangzhou
+  # procedure: SimpleAesEncryptPreset #任务流
+  # tempPath: C:\StudyJava\StudyJava\TingShu\temp_path
+  # playKey: wrTwwu8U3DRSRDgC8l7q  #播放加密key
 
 #vod:
 #  appId: 1252137686
