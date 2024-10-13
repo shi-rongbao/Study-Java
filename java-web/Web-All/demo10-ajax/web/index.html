@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>fuck you</button> <span></span>
+
+<script>
+    const button = document.querySelector("button");
+    button.addEventListener("click", function () {
+        // 实例化一个xmlHttpRequest
+        const request = new XMLHttpRequest();
+        // 设置xmlHttpRequest 对象的回调函数
+        // request.readState   有 1 2 3 4 四个值, 这里只关注值为 4 的情况
+        // request.status      响应状态码    响应行状态码
+        request.onreadystatechange = function () {
+            if (request.readyState === 4 && request.status === 200) {
+                // 接收响应结果, 处理结果
+                const span = document.querySelector("span");
+                span.innerHTML = request.responseText;
+            }
+        }
+        // 设置发送请求的方式和请求的资源路径
+        request.open("GET", "/hello?username=zhangSan");
+        // 发送请求
+        request.send();
+    });
+</script>
+</body>
+</html>

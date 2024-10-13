@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <servlet>
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>com.shirongbao.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userServlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+<!--
+    找的路线:
+    先找url-pattern,找到后找mapping中的servlet-name别名
+    然后在servlet中找对应的别名,就可以找到类了
+    同时,
+    可以有多个url-pattern对应着同一个别名
+    也就是多个路径可以最终到一个类
+
+    不同的servlet不可以用相同的url-pattern
+
+    一个servlet可以对应多个mapping
+ -->
+<!--    <servlet>-->
+<!--&lt;!&ndash;        这个标签是起别名&ndash;&gt;-->
+<!--        <servlet-name>servlet1</servlet-name>-->
+<!--        <servlet-class>com.shirongbao.servlet.Servlet1</servlet-class>-->
+<!--    </servlet>-->
+    
+<!--    <servlet-mapping>-->
+<!--&lt;!&ndash;        指定servlet1的映射路径,上面是名字,下面是指定的路径&ndash;&gt;-->
+<!--        <servlet-name>servlet1</servlet-name>-->
+<!--        <url-pattern>/s1</url-pattern>-->
+<!--        <url-pattern>/fuck</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    mapping的url 中有模糊匹配与精匹配-->
+<!--
+        精确匹配就是正常直接写完整
+        模糊匹配,
+        /           匹配全部,不包含jsp文件
+        /*          匹配全部,包含jsp文件
+        /a/*        匹配以a开头的
+        *.action    匹配后缀,前缀是模糊的
+
+        一般精确匹配就可以了
+-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>servlet1</servlet-name>-->
+<!--        <url-pattern>/s1</url-pattern>-->
+<!--    </servlet-mapping>-->
+</web-app>
