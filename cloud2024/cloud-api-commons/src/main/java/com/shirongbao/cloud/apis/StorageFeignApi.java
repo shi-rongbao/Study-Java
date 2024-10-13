@@ -1,0 +1,21 @@
+package com.shirongbao.cloud.apis;
+
+import com.shirongbao.cloud.resp.ResultData;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+/**
+ * @author ShiRongbao
+ * @create 2024/3/24 21:58
+ * @description:
+ */
+@FeignClient(value = "seata-storage-service")
+public interface StorageFeignApi {
+    /**
+     * 扣减库存
+     */
+    @PostMapping(value = "/storage/decrease")
+    ResultData decrease(@RequestParam("productId") Long productId, @RequestParam("count") Integer count);
+
+}

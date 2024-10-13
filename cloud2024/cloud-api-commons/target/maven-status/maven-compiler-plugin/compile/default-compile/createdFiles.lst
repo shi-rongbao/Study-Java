@@ -1,0 +1,5 @@
+com\shirongbao\cloud\resp\ResultData.class
+com\shirongbao\cloud\apis\PayFeignApi.class
+com\shirongbao\cloud\resp\ReturnCodeEnum.class
+com\shirongbao\cloud\entities\PayDTO.class
+com\shirongbao\cloud\exp\GlobalExceptionHandler.class

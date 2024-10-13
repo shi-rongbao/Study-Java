@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bcd7a3e-64e9-4803-b556-301dcc99d554" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\DevelopTools\Java\Maven\apache-maven-3.9.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\Develop\Java\Maven\apache-maven-3.9.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2dU6fBKRnmK38IoJKAAKQBzOpLB" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.ReturnCodeEnum.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "JUnit.ArrayTest.executor": "Run",
+    "JUnit.ArrayTest.testList.executor": "Run",
+    "JUnit.Demo.testHashMap.executor": "Run",
+    "JUnit.TestIterator.testIterator.executor": "Run",
+    "JUnit.TestString.executor": "Run",
+    "JUnit.TestString.testString.executor": "Run",
+    "Maven.cloud-api-commons [clean,install].executor": "Run",
+    "Maven.cloud-api-commons [clean,package].executor": "Run",
+    "Maven.cloud-api-commons [clean].executor": "Run",
+    "Maven.cloud-api-commons [install].executor": "Run",
+    "Maven.cloud-api-commons [package].executor": "Run",
+    "Maven.cloud2024 [clean].executor": "Run",
+    "Maven.cloud2024 [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
+    "Maven.mybatis_generator2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main3377.executor": "Debug",
+    "Spring Boot.Main80.executor": "Debug",
+    "Spring Boot.Main8001.executor": "Debug",
+    "Spring Boot.Main8002.executor": "Debug",
+    "Spring Boot.Main81.executor": "Debug",
+    "Spring Boot.Main83.executor": "Debug",
+    "Spring Boot.Main8401.executor": "Debug",
+    "Spring Boot.Main9001.executor": "Debug",
+    "Spring Boot.Main9002.executor": "Debug",
+    "Spring Boot.Main9527.executor": "Debug",
+    "Spring Boot.Main9528.executor": "Debug",
+    "Spring Boot.MainOpenFeign80.executor": "Debug",
+    "Spring Boot.SeataAccountMainApp2003.executor": "Debug",
+    "Spring Boot.SeataOrderMainApp2001.executor": "Debug",
+    "Spring Boot.SeataStorageMainApp2002.executor": "Debug",
+    "git-widget-placeholder": "SpringCloud",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/StudyJava/spring6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-account-service2003\src\main\java\com\shirongbao\cloud" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-storage-service2002\src\main\java\com\shirongbao\cloud" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-order-service2001\src\main\resources\mapper" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-order-service2001\src\main\java\com\shirongbao\cloud" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\cloudalibaba-sentinel-service8401\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-account-service2003\src\main\resources\mapper" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\seata-storage-service2002\src\main\resources\mapper" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\cloudalibaba-sentinel-service8401\src\main\resources\static" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\cloud-consumer-order80\src\main\resources" />
+      <recent name="D:\StudyJava\SpringCloud\Code\JavaCode\cloud2024\cloud-provider-payment8001\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Demo.testHashMap">
+    <configuration name="Demo.testHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seata-storage-service2002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shirongbao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.test.Demo" />
+      <option name="METHOD_NAME" value="testHashMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIterator.testIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shirongbao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.test.TestIterator" />
+      <option name="METHOD_NAME" value="testIterator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shirongbao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.test.TestString" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shirongbao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.test.TestString" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-config-nacos-client3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9528" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-gateway9528" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.Main9528" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainOpenFeign80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shiongbao.cloud.MainOpenFeign80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.SeataAccountMainApp2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMainApp2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.SeataOrderMainApp2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageMainApp2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shirongbao.cloud.SeataStorageMainApp2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestIterator.testIterator" />
+      <item itemvalue="JUnit.TestString" />
+      <item itemvalue="JUnit.TestString.testString" />
+      <item itemvalue="JUnit.Demo.testHashMap" />
+      <item itemvalue="Spring Boot.Main3377" />
+      <item itemvalue="Spring Boot.Main83" />
+      <item itemvalue="Spring Boot.Main8401" />
+      <item itemvalue="Spring Boot.Main9528" />
+      <item itemvalue="Spring Boot.Main9002" />
+      <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
+      <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
+      <item itemvalue="Spring Boot.SeataStorageMainApp2002" />
+      <item itemvalue="Spring Boot.Main9527" />
+      <item itemvalue="Spring Boot.Main8001" />
+      <item itemvalue="Spring Boot.Main8002" />
+      <item itemvalue="Spring Boot.Main80" />
+      <item itemvalue="Spring Boot.MainOpenFeign80" />
+      <item itemvalue="Spring Boot.Main9001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo.testHashMap" />
+        <item itemvalue="JUnit.TestIterator.testIterator" />
+        <item itemvalue="JUnit.TestString.testString" />
+        <item itemvalue="JUnit.TestString" />
+        <item itemvalue="Spring Boot.Main9001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bcd7a3e-64e9-4803-b556-301dcc99d554" name="Changes" comment="" />
+      <created>1710050411889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710050411889</updated>
+      <workItem from="1710050414630" duration="591000" />
+      <workItem from="1710051012822" duration="9036000" />
+      <workItem from="1710066606218" duration="271000" />
+      <workItem from="1710067054414" duration="7054000" />
+      <workItem from="1710124251901" duration="3324000" />
+      <workItem from="1710135400179" duration="7888000" />
+      <workItem from="1710144187490" duration="17523000" />
+      <workItem from="1710201278031" duration="4896000" />
+      <workItem from="1710246525425" duration="1633000" />
+      <workItem from="1710292016981" duration="19316000" />
+      <workItem from="1710348819902" duration="37000" />
+      <workItem from="1710380393498" duration="7684000" />
+      <workItem from="1710418901972" duration="8401000" />
+      <workItem from="1710461257800" duration="6151000" />
+      <workItem from="1710482331702" duration="2375000" />
+      <workItem from="1710593783199" duration="5596000" />
+      <workItem from="1710648027426" duration="14488000" />
+      <workItem from="1710743154459" duration="51000" />
+      <workItem from="1710810811837" duration="2644000" />
+      <workItem from="1710822150741" duration="3067000" />
+      <workItem from="1710832309799" duration="3409000" />
+      <workItem from="1710897473697" duration="3228000" />
+      <workItem from="1710938172063" duration="7832000" />
+      <workItem from="1710951552764" duration="217000" />
+      <workItem from="1710984505183" duration="237000" />
+      <workItem from="1710987346965" duration="5583000" />
+      <workItem from="1711006323881" duration="619000" />
+      <workItem from="1711027257276" duration="6626000" />
+      <workItem from="1711038071992" duration="18000" />
+      <workItem from="1711088606312" duration="968000" />
+      <workItem from="1711095512675" duration="1596000" />
+      <workItem from="1711285630000" duration="8640000" />
+      <workItem from="1711346703973" duration="1221000" />
+      <workItem from="1711359609403" duration="12000" />
+      <workItem from="1711415796817" duration="109000" />
+      <workItem from="1711591583045" duration="743000" />
+      <workItem from="1711595839841" duration="531000" />
+      <workItem from="1711672205564" duration="338000" />
+      <workItem from="1711673568217" duration="3580000" />
+      <workItem from="1711779845894" duration="15000" />
+      <workItem from="1712560525553" duration="298000" />
+      <workItem from="1712561962135" duration="84000" />
+      <workItem from="1712748243129" duration="3470000" />
+      <workItem from="1713488973779" duration="30000" />
+      <workItem from="1717994905265" duration="121000" />
+      <workItem from="1720503653542" duration="361000" />
+      <workItem from="1720504021069" duration="129000" />
+      <workItem from="1721192043641" duration="62000" />
+      <workItem from="1721918326972" duration="352000" />
+      <workItem from="1726295195263" duration="2497000" />
+      <workItem from="1726297969872" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/shirongbao/cloud/controller/PayController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
