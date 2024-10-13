@@ -1,0 +1,4 @@
+org.springframework.boot.SpringApplicationRunListener=com.shirongbao.boot3.core.listener.MyAppListener
+
+
+
