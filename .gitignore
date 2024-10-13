@@ -74,3 +74,6 @@ application.properties  # Or similar
 *.7z
 *.tar.gz
 *.tar.bz2
+
+# 资料
+资料
