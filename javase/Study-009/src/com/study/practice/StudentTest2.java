@@ -1,0 +1,69 @@
+package com.study.practice;
+
+public class StudentTest2 {
+    public static void main(String[] args) {
+        Student[] arr = new Student[3];
+        Student stu1 = new Student("a1", "shirongbao", 19);
+        Student stu2 = new Student("a2", "shirongbao", 20);
+        Student stu3 = new Student("a3", "shirongbao", 21);
+
+        arr[0] = stu1;
+        arr[1] = stu2;
+        arr[2] = stu3;
+
+        Student stu4 = new Student("a4", "shirongbao", 22);
+
+        boolean flag = contains(arr, stu4.getId());
+        if (flag) {
+            System.out.println("学号已经存在,添加失败!");
+        } else {
+            int count = count(arr);
+            if (count == arr.length) {
+                Student[] newArr = creatNewArr(arr);
+                newArr[count] = stu4;
+                print(newArr);
+            } else {
+                arr[count] = stu4;
+                print(arr);
+            }
+        }
+
+    }
+
+    public static boolean contains(Student[] arr, String id) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != null) {
+                if (id.equals(arr[i].getId())) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public static int count(Student[] arr) {
+        int count = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != null) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static Student[] creatNewArr(Student[] arr) {
+        Student[] newArr = new Student[arr.length + 1];
+        for (int i = 0; i < arr.length; i++) {
+            newArr[i] = arr[i];
+        }
+        return newArr;
+    }
+
+    public static void print(Student[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != null) {
+                System.out.println(arr[i].toString());
+            }
+        }
+    }
+}
