@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-thread-demo/001-thread-demo.iml" filepath="$PROJECT_DIR$/001-thread-demo/001-thread-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/002-synchronized_lock-demo/002-synchronized_lock-demo.iml" filepath="$PROJECT_DIR$/002-synchronized_lock-demo/002-synchronized_lock-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-thread-security-demo/003-thread-security-demo.iml" filepath="$PROJECT_DIR$/003-thread-security-demo/003-thread-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-eight-lock/004-eight-lock.iml" filepath="$PROJECT_DIR$/004-eight-lock/004-eight-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc.iml" filepath="$PROJECT_DIR$/juc.iml" />
+    </modules>
+  </component>
+</project>
