@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<navigation-bar title="FuckYou" back="{{true}}" color="red" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view>
+        {{msg}}
+    </view>
+    <view>
+        <button bindtap="getUserInfo" type="primary">
+            获取用户信息
+        </button>
+        昵称：{{nickName}}
+        <image style="height: 100px; width: 100px;" src="{{url}}">
+
+        </image>
+    </view>
+    <view>
+        <button bindtap="wxLogin" type="warn">
+            微信登录
+        </button>
+        授权码：{{code}}
+    </view>
+  </view>
+</scroll-view>
