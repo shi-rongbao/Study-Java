@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+</head>
+<body>
+    <h2>如何更好地学习?</h2>
+
+    <dl>
+        <dt>做好笔记</dt>
+        <dd>笔记是好东西</dd>
+        <dd>我不喜欢做笔记</dd>
+        <dt>要多练习</dt>
+        <dd>自己写出来的代码才是自己的</dd>
+    </dl>
+
+    <h2>-------这是一条分割线-------</h2>
+
+    <ul>
+        <li>这是第一个</li>
+        <li>
+            <span>这是第二个</span>
+            <ul>
+                <li>2.1我可以嵌套</li>
+                <li>2.2我可以嵌套</li>
+                <li>2.3我可以嵌套</li>
+            </ul>
+        </li>
+        <li>
+            <a href="http://www.baidu.com" target="_blank">还能有超链接</a>
+        </li>
+    </ul>
+    <h2>-------这是一条分割线-------</h2>
+    <h2>下面是表格的演示</h2>
+
+    <!-- 表格 -->
+    <table border="1px">
+        <!-- 表格标题 -->
+        <caption>学生信息</caption>
+        <!-- 表格头部 -->
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>民族</th>
+                <th>政治面貌</th>
+            </tr>
+        </thead>
+        <!-- 表格主体 -->
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>18</td>
+                <td>汉族</td>
+                <td>团员</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>女</td>
+                <td>19</td>
+                <td>满族</td>
+                <td>群众</td>
+            </tr>
+            <tr>
+                <td>王五</td>
+                <td>男</td>
+                <td>20</td>
+                <td>回族</td>
+                <td>党员</td>
+            </tr>
+            <tr>
+                <td>赵六</td>
+                <td>女</td>
+                <td>21</td>
+                <td>壮族</td>
+                <td>团员</td>
+            </tr>
+        </tbody>
+        <!-- 表格脚注,可有可无 -->
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>共计:4人</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>再来一个表格</h2>
+
+    <!-- 这是表格 -->
+    <table border="1px" width="500" cellspacing="0px">
+        <!-- 表格的标题 -->
+        <caption>学生信息</caption>
+        <!-- 表格的头部 -->
+        <thead>
+            <!-- 头部有一行 -->
+            <tr>
+                <!-- 一行有四个元素 -->
+                <th>第1个</th>
+                <th>第2个</th>
+                <th>第3个</th>
+                <th>第4个</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>这是脚注</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>再来一个表格</h2>
+
+    <table border="1" cellspacing="0">
+        <caption>课程表</caption>
+        <thead>
+            <tr>
+                <th>项目</th>
+                <th colspan="5">上课</th>
+                <th colspan="2">活动与休息</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>星期</td>
+                <td>星期一</td>
+                <td>星期二</td>
+                <td>星期三</td>
+                <td>星期四</td>
+                <td>星期五</td>
+                <td>星期六</td>
+                <td>星期日</td>
+            </tr>
+            <tr>
+                <td rowspan="4">上午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>数学竞赛</td>
+                <td rowspan="4">休息</td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td>语文</td>
+                <td>化学</td>
+                <td>物理</td>
+                <td>英语</td>
+                <td>篮球比赛</td>
+            </tr>
+            <tr>
+                <td>化学</td>
+                <td>语文</td>
+                <td>体育</td>
+                <td>历史</td>
+                <td>地理</td>
+                <td>每周一考</td>
+            </tr>
+            <tr>
+                <td>体育</td>
+                <td>化学</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>社会实践</td>
+            </tr>
+            <tr>
+                <td rowspan="2">下午</td>
+                <td>语文</td>
+                <td>英语</td>
+                <td>数学</td>
+                <td>物理</td>
+                <td>数学</td>
+                <td>英语角</td>
+                <td rowspan="2">休息</td>
+            </tr>
+            <tr>
+                <td>化学</td>
+                <td>物理</td>
+                <td>地理</td>
+                <td>生物</td>
+                <td>体育</td>
+                <td>自由活动</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+</body>
+</html>

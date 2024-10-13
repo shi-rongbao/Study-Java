@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://www.baidu.com">支付成功5秒后自动跳转到首页</a>
+
+    <script>
+        localStorage.removeItem("messages");
+        const a = document.querySelector("a");
+        let num = 5;
+        let n = setInterval(function () {
+            num--;
+            a.innerHTML = `支付成功${num}秒后自动跳转到首页`;
+            if (num === 0) {
+                clearInterval(n);
+                window.location.href = "https://www.baidu.com";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
