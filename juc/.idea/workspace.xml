@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35d5c9e-2dc1-4be6-af8d-6f023aedae61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/004-eight-lock/src/com/shirongbao/lock/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data-structure" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javase" beforeDir="false" afterPath="$PROJECT_DIR$/../javase" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sky-take-out" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out" afterDir="false" />
@@ -184,7 +185,7 @@
       <workItem from="1728465805343" duration="3000" />
       <workItem from="1728519066813" duration="1087000" />
       <workItem from="1728524561611" duration="15000" />
-      <workItem from="1728830686211" duration="17000" />
+      <workItem from="1728830686211" duration="835000" />
     </task>
     <servers />
   </component>
