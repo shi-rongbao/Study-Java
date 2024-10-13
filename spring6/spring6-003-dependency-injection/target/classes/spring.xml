@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDaoBean" class="com.shirongbao.spring6.dao.UserDao"/>
+    <bean id="serviceBean" class="com.shirongbao.spring6.service.UserService">
+        <!--如果想让spring调用set方法,需要配置property标签-->
+        <!--name标签的值是set方法,去掉set三个字母,然后后面的按照小驼峰写上去-->
+        <!--第二个ref 翻译为引用.   英语单词为:references ref后指定的是要注入的bean的id-->
+        <property name="userDao" ref="userDaoBean"/>
+    </bean>
+</beans>

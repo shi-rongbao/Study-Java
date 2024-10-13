@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataFactory" class="com.shirongbao.spring.bean.DataFactory">
+        <constructor-arg value="2003-09-22"/>
+    </bean>
+
+    <bean id="studentBean" class="com.shirongbao.spring.bean.Student">
+<!--        <property name="birth" value="Tue Jan 16 10:40:25 GMT 2024"/>-->
+        <property name="birth" ref="dataFactory"/>
+    </bean>
+
+    <bean id="sBean" class="com.shirongbao.spring.bean.SpringBean">
+    </bean>
+
+    <bean id="starBean" class="com.shirongbao.spring.bean.StarFactory" factory-method="get"/>
+
+    <bean id="gunFactoryBean" class="com.shirongbao.spring.bean.GunFactory"/>
+    <bean id="gunBean" factory-bean="gunFactoryBean" factory-method="get"/>
+
+    <bean id="personBean" class="com.shirongbao.spring.bean.PersonFactory"/>
+</beans>

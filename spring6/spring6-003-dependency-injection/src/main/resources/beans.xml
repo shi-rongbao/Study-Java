@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDaoBean" class="com.shirongbao.spring6.dao.UserDao" />
+    <bean id="vipDaoBean" class="com.shirongbao.spring6.dao.VipDao" />
+    <bean id="csBean" class="com.shirongbao.spring6.service.CustomerService" >
+        <!--指定构造方法的第1个参数,索引是0-->
+        <constructor-arg index="0" ref="userDaoBean"/>
+        <!--指定构造方法的第2个参数,索引是1-->
+        <constructor-arg index="1" ref="vipDaoBean"/>
+    </bean>
+    <bean id="csBean2" class="com.shirongbao.spring6.service.CustomerService">
+        <!--name 值对应的是构造器中的形参-->
+        <constructor-arg name="userDao" ref="userDaoBean"/>
+        <constructor-arg name="vipDao" ref="vipDaoBean"/>
+    </bean>
+    <bean id="csBean3" class="com.shirongbao.spring6.service.CustomerService">
+        <!--既不指定name又不指定index,让spring自己做类型匹配-->
+        <!--这种方式是根据类型来注入的,不推荐-->
+        <constructor-arg ref="userDaoBean"/>
+        <constructor-arg ref="vipDaoBean"/>
+    </bean>
+</beans>

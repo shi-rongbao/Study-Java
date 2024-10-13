@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="husband" class="com.shirongbao.spring6.bean.Husband" scope="singleton">-->
+<!--        <property name="name" value="张三"/>-->
+<!--        <property name="wife" ref="wife"/>-->
+<!--    </bean>-->
+<!--    <bean id="wife" class="com.shirongbao.spring6.bean.Wife" scope="singleton">-->
+<!--        <property name="name" value="赵六"/>-->
+<!--        <property name="husband" ref="husband"/>-->
+<!--    </bean>-->
+
+    <bean id="husband" class="com.shirongbao.spring6.bean2.Husband">
+        <constructor-arg name="name" value="张三"/>
+        <constructor-arg name="wife" ref="wife"/>
+    </bean>
+
+    <bean id="wife" class="com.shirongbao.spring6.bean2.Wife">
+        <constructor-arg name="name" value="小花"/>
+        <constructor-arg name="husband" ref="husband"/>
+    </bean>
+</beans>
