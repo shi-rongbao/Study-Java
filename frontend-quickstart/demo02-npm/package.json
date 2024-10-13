@@ -1,0 +1,13 @@
+{
+  "name": "demo02-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '你好，我叫时荣宝'",
+    "dev": "node main.js",
+    "build": "echo '正在打包'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
