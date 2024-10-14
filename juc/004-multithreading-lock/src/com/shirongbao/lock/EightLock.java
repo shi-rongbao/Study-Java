@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @create 2024/10/13
  * @description:
  */
-public class Main {
+public class EightLock {
 
     public static void main(String[] args) throws InterruptedException {
 
