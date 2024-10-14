@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35d5c9e-2dc1-4be6-af8d-6f023aedae61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/004-eight-lock/src/com/shirongbao/lock/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-structure" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javase" beforeDir="false" afterPath="$PROJECT_DIR$/../javase" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sky-take-out" beforeDir="false" afterPath="$PROJECT_DIR$/../sky-take-out" afterDir="false" />
+    <list default="true" id="d35d5c9e-2dc1-4be6-af8d-6f023aedae61" name="Changes" comment="some file updated">
       <change beforePath="$PROJECT_DIR$/../top-news/my-vue3-vite-project" beforeDir="false" afterPath="$PROJECT_DIR$/../top-news/my-vue3-vite-project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +50,12 @@
     "Application.InterviewDemo (1).executor": "Run",
     "Application.InterviewDemo.executor": "Debug",
     "Application.LSaleTicket.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ReentryLock.executor": "Run",
+    "Application.ReentryLock2.executor": "Run",
     "Application.SaleTicket.executor": "Run",
     "Application.ThreadDemo.executor": "Run",
     "Application.ThreadDemo1.executor": "Run",
@@ -81,10 +82,49 @@
       <recent name="com.shirongbao.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.shirongbao.demo.ThreadDemo3">
-    <configuration name="InterviewDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.InterviewDemo" />
-      <module name="002-synchronized_lock-demo" />
+  <component name="RunManager" selected="Application.ReentryLock2">
+    <configuration name="EightLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.EightLock" />
+      <module name="004-multithreading-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.EightLock" />
+      <module name="004-multithreading-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.EightLock" />
+      <module name="004-multithreading-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.EightLock" />
+      <module name="004-multithreading-lock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shirongbao.lock.*" />
@@ -108,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shirongbao.demo.ThreadDemo1" />
-      <module name="003-thread-security-demo" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.Main" />
+      <module name="004-eight-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shirongbao.demo.*" />
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +161,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shirongbao.demo.ThreadDemo2" />
-      <module name="003-thread-security-demo" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.Main" />
+      <module name="004-eight-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shirongbao.demo.*" />
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.Main" />
+      <module name="004-eight-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentryLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.ReentryLock1" />
+      <module name="004-multithreading-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentryLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shirongbao.lock.ReentryLock2" />
+      <module name="004-multithreading-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shirongbao.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.shirongbao.demo.ThreadDemo3" />
-        <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadDemo1" />
-        <item itemvalue="Application.InterviewDemo" />
-        <item itemvalue="Application.InterviewDemo (1)" />
+        <item itemvalue="Application.ReentryLock2" />
+        <item itemvalue="Application.ReentryLock1" />
+        <item itemvalue="Application.EightLock" />
+        <item itemvalue="Application.EightLock" />
+        <item itemvalue="Application.EightLock" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +265,45 @@
       <workItem from="1728519066813" duration="1087000" />
       <workItem from="1728524561611" duration="15000" />
       <workItem from="1728830686211" duration="835000" />
+      <workItem from="1728835142501" duration="60000" />
+      <workItem from="1728919326060" duration="2318000" />
     </task>
+    <task id="LOCAL-00001" summary="juc - 8 lock">
+      <option name="closed" value="true" />
+      <created>1728920342009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728920342009</updated>
+    </task>
+    <task id="LOCAL-00002" summary="juc - update file name">
+      <option name="closed" value="true" />
+      <created>1728920422883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728920422883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="juc - reentry lock">
+      <option name="closed" value="true" />
+      <created>1728921594285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728921594285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="juc - 8 lock" />
+    <MESSAGE value="juc - update file name" />
+    <MESSAGE value="juc - reentry lock" />
+    <MESSAGE value="some file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="some file updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
