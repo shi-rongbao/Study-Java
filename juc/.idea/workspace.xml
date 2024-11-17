@@ -45,38 +45,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.InterviewDemo (1).executor": "Run",
-    "Application.InterviewDemo.executor": "Debug",
-    "Application.LSaleTicket.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ReentryLock.executor": "Run",
-    "Application.ReentryLock2.executor": "Run",
-    "Application.SaleTicket.executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadDemo1.executor": "Run",
-    "Application.ThreadDemo2 (1).executor": "Run",
-    "Application.ThreadDemo2.executor": "Run",
-    "Application.ThreadDemo3 (1).executor": "Run",
-    "Application.ThreadDemo3.executor": "Run",
-    "Application.com.shirongbao.demo.ThreadDemo3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Workspace/xzy_betterup",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InterviewDemo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterviewDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LSaleTicket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentryLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentryLock2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SaleTicket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.shirongbao.demo.ThreadDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/xzy_betterup&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shirongbao.demo" />
@@ -266,7 +266,10 @@
       <workItem from="1728524561611" duration="15000" />
       <workItem from="1728830686211" duration="835000" />
       <workItem from="1728835142501" duration="60000" />
-      <workItem from="1728919326060" duration="2318000" />
+      <workItem from="1728919326060" duration="2548000" />
+      <workItem from="1729490948175" duration="112000" />
+      <workItem from="1729494101293" duration="1793000" />
+      <workItem from="1729497970425" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="juc - 8 lock">
       <option name="closed" value="true" />
