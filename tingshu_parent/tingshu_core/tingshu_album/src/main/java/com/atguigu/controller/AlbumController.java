@@ -1,6 +1,5 @@
 package com.atguigu.controller;
 
-import com.atguigu.SearchFeignClient;
 import com.atguigu.entity.AlbumAttributeValue;
 import com.atguigu.entity.AlbumInfo;
 import com.atguigu.login.TingShuLogin;
@@ -16,15 +15,12 @@ import com.atguigu.vo.AlbumStatVo;
 import com.atguigu.vo.AlbumTempVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
-import kotlin.jvm.internal.Lambda;
 import org.redisson.api.RedissonClient;
-import org.simpleframework.xml.Path;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
